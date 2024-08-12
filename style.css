@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    background: linear-gradient(to left bottom, lightgreen, lightblue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'courier new','Courier New', Courier, monospace;
+}
+
+.container{
+    background-color: rgba(225, 225, 225, .3);
+    padding: 50px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0  10px 10px rgba(0, 0, 0, .3);
+    margin: 5px;
+}
+
+.entete{
+    font-size: 30px;
+}
+
+input{
+    padding: 10px 20px;
+    background-color: rgba(249, 247, 247, 0.3);
+    border-color: rgba(225, 225, 225, .3);
+    margin: 10px;
+}
+
+.btn{
+    padding: 10px 20px;
+    background-color: rgb(91, 209, 150);
+    color: rgb(0, 0, 0);
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0,3);
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn:hover{
+    background-color: rgb(114, 237, 189);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.info-texe{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+@media (max-width: 768px) {
+    body{
+        margin: 0;
+        background: linear-gradient(to left bottom, rgb(148, 132, 74), rgb(122, 123, 124));
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        
+    }
+    .btn{
+        font-size: 15px;
+        padding: 5px 10px;
+        background-color: black;
+        color: white;
+    }
+}

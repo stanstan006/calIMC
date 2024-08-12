@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>calcule l'indice corporelle</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="entete">calculer l'indice corporel</h1>
+        votre taille (m) :
+        <input type="number" id="taille" value="1.80" step="0.01" placeholder="votrez votre taille">
+        votre poid (kg) :
+        <input type="number" id="poid" value="80" placeholder="votrez votre poid">
+        <button class="btn" id="btn">valider</button>
+        votre IMC est:
+        <input disabled type="text" class="input" id="res">
+        <h4 class="info-texe">
+            <span id="masse-corporelle"></span>
+        </h4>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
